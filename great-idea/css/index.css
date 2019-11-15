@@ -168,15 +168,15 @@ h1, h2, h3, h4, h5 {
 .services-header {
 	margin: 25px 0px 40px 0px;
 }
-.services-heading h1{
-	font-size: 1.5em;
+.services-header h1{
+	font-size: 1.6em;
 	margin: 30px 0px 15px 0px;
 }
 
 .services-content {
 	border-bottom: 2px solid black;
 	border-top: 1px solid black;
-	padding: 40px 0px 40px 0px;
+	padding: 20px 0px 20px 0px;
 }
 
 .services-container {
@@ -187,7 +187,15 @@ h1, h2, h3, h4, h5 {
 .box-of-six {
 	background-color: whitesmoke;
 	border: 1px solid black;
-	flex: 50%;
+	flex: 46%;
+}
+
+.odd-box {
+	margin: 2% 2% 2% 0px;
+}
+
+.even-box {
+	margin: 2% 0px 2% 2%;
 }
 
 .box-of-six h1 {
