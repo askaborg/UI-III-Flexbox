@@ -64,3 +64,173 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.page-container {
+	margin: 40px 75px 40px 75px;
+}
+
+.top-container {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width:100%;
+}
+
+.nav-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.nav-items {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	justify-content: space-between;
+	padding: 0px 80px 0px 0px;
+	width: 100%;
+}
+
+.items {
+	color: gray;
+	display: flex;
+	justify-content: left;
+	text-decoration: none;
+}
+
+.slogan {
+	margin: 100px 0px 80px 0px;
+}
+
+.slogan-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.slogan-text {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	font-size: 5em;
+	padding: 0px 0px 0px 75px;
+	margin: 60px 0px 0px;
+}
+
+.slogan-text h1 {
+	margin: 0px 0px 0px 0px;
+}
+
+.slogan-text button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 10px 50px 10px 50px;
+}
+
+.content {
+	border-top: 1px solid black;
+}
+
+.two-columns-container {
+	display: flex;
+	flex-direction: row;
+	margin: 40px 0px 40px 0px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.three-columns-container {
+	display: flex;
+	flex-direction: row;
+	margin: 40px 0px 40px 0px;
+}
+
+.footer {
+	border-top: 1px solid black;
+}
+
+.contact {
+	margin: 40px 0px 40px 0px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.services-header-img{
+	width: 100%;
+}
+
+.services-header {
+	margin: 25px 0px 40px 0px;
+}
+.services-header h1{
+	font-size: 1.6em;
+	margin: 30px 0px 15px 0px;
+}
+
+.services-content {
+	border-bottom: 2px solid black;
+	border-top: 1px solid black;
+	padding: 20px 0px 20px 0px;
+}
+
+.services-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box-of-six {
+	background-color: whitesmoke;
+	border: 1px solid black;
+	flex: 46%;
+}
+
+.odd-box {
+	margin: 2% 2% 2% 0px;
+}
+
+.even-box {
+	margin: 2% 0px 2% 2%;
+}
+
+.box-of-six h1 {
+	margin: 20px 20px 20px 20px;
+}
+
+.box-of-six p {
+	margin: 0px 20px 20px 20px;
+}
+
+.box-of-six button {
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: white;
+	height: 35px;
+	margin: 0px 0px 20px 20px;
+	width: 150px;
+}
+
+.services-footer {
+	margin: 40px 0px 0px 0px;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 0px 80px 0px;
+}
+
+.footer-text p {
+	margin: 0px 50px 30px 0px;
+}
+
+.footer-text li {
+	list-style-type: square;
+	margin: 0px 0px 15px 20px;
+}
+
